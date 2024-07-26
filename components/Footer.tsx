@@ -42,7 +42,7 @@ const Footer = () => {
               key={id}
             >
               <Link href={link}>
-                <img src={img} alt={id} width={20} height={20} />
+                <img src={img} alt={img} width={20} height={20} />
               </Link>
             </div>
           ))}
